@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Peg Puzzle</string>
+    <string name="menu_difficulty">Difficulty</string>
+    <string name="menu_num_pieces">Number of Pieces</string>
+
+    <string name="menu_save">Save</string>
+    
+    <string name="menu_difficulty_lvl1">Beginner</string>
+    <string name="menu_difficulty_lvl2">Easy</string>
+    <string name="menu_difficulty_lvl3">Medium</string>
+    <string name="menu_difficulty_lvl4">Hard</string>
+    
+    <string name="menu_pieces_3">3</string>
+    <string name="menu_pieces_4">4</string>
+    <string name="menu_pieces_5">5</string>
+</resources>

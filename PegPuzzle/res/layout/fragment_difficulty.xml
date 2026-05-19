@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_gravity="center"
+  android:orientation="vertical" >
+ 
+  <RadioGroup
+    android:id="@+id/difficulty_rb_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    
+    <RadioButton
+      android:id="@+id/difficulty_rb_beginner"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/menu_difficulty_lvl1" />
+
+    <RadioButton
+      android:id="@+id/difficulty_rb_easy"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/menu_difficulty_lvl2" />
+
+    <RadioButton
+      android:id="@+id/difficulty_rb_medium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/menu_difficulty_lvl3" />
+
+    <RadioButton
+      android:id="@+id/difficulty_rb_hard"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/menu_difficulty_lvl4" />
+
+  </RadioGroup>
+
+  <Button
+      android:id="@+id/menu_submit"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/menu_save" />
+  
+</LinearLayout>
