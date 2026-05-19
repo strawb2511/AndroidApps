@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:id="@+id/tableExercise"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <TableRow
+        android:id="@+id/trExerciseHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/header_gym_session"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:width="110dp" />
+        
+        <EditText
+            android:id="@+id/txtDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:width="100dp" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/trExerciseName">
+        
+        <TextView
+            android:id="@+id/lblExecerciseName"
+            android:width="50dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/exercise_name"
+            android:textSize="12dp" />
+        
+         <EditText
+            android:id="@+id/txtExerciseName"
+            android:inputType="text"
+            android:textSize="12sp"
+            android:layout_weight="50"
+            android:padding="2dp"
+            android:height="20dp" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/trExerciseWeight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/lblExerciseWeight"
+            android:width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_weight"
+            android:textSize="12dp" />
+         
+        <EditText
+            android:id="@+id/txtExerciseWeight"
+            android:layout_width="wrap_content"
+            android:inputType="numberDecimal"
+            android:textSize="10sp"
+            android:width="50dp" />
+        
+        <Spinner
+            android:id="@+id/listWeightOptions"
+            android:layout_width="wrap_content"
+            android:entries="@array/exercise_weight_options"
+            android:clickable="true"
+            android:layout_gravity="center_vertical" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/trExerciseSetsReps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <TextView
+            android:id="@+id/lblExerciseSet"
+            android:width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_sets"
+            android:textSize="12dp" />
+        <EditText
+            android:id="@+id/txtSets"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:textSize="10sp"
+            android:width="50dp" />
+        <TextView
+            android:id="@+id/lblBlank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12dp" />        
+        <TextView
+            android:id="@+id/lblExerciseReps"
+            android:width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/exercise_reps"
+            android:textSize="12dp" />
+        <EditText
+            android:id="@+id/txtReps"
+            android:inputType="number"
+            android:textSize="10sp"
+            android:width="50dp" />
+    </TableRow>
+   
+    <Button android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_add_exercise"/>
+    
+    <Button android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_save_session"/>
+ 
+
+</TableLayout>

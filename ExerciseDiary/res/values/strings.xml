@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exercise Diary</string>
+    <string name="mainOption1">Gym Session</string>
+    <string name="mainOption2">Ride</string>
+    <string name="mainOption3">Run/Walk</string>
+    <string name="mainOption4">Swim</string>
+    <string name="mainOption5">Other</string>
+    <string name="btnMainAdd">Record New</string>
+    <string name="btnMainView">View Prev.</string>
+    <string name="header_gym_session">Gym Session</string>
+    <string name="exercise_name">Exercise</string>
+    <string name="exercise_weight">Weight</string>
+    <string name="exercise_sets">Sets</string>
+    <string name="exercise_reps">Reps</string>
+    <string-array name="exercise_weight_options">
+        <item >kg</item>
+        <item >lbs</item>
+        <item />
+    </string-array>
+    <string name="btn_add_exercise">Add another exercise</string>
+    <string name="btn_save_session">Save Session</string>
+
+</resources>

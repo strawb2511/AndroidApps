@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" android:padding="5dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainOption1" 
+                android:textSize="20sp" 
+                android:textStyle="bold"/>
+                    
+            <Button
+                android:id="@+id/btnMainOption1View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainView" />
+
+            <Button
+                android:id="@+id/btnMainOption1Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainAdd" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainOption2" 
+                android:textSize="20sp" 
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnMainOption2View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainView" />
+
+            <Button
+                android:id="@+id/btnMainOption2Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainAdd" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainOption3" 
+                android:textSize="20sp" 
+                android:textStyle="bold"/>
+            
+            <Button
+                android:id="@+id/btnMainOption3View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainView" />
+
+            <Button
+                android:id="@+id/btnMainOption3Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainAdd" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainOption4" 
+                android:textSize="20sp" 
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnMainOption4View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainView" />
+
+            <Button
+                android:id="@+id/btnMainOption4Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainAdd" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mainOption5" 
+                android:textSize="20sp" 
+                android:textStyle="bold"/>
+
+            <Button
+                android:id="@+id/btnMainOption5View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainView" />
+
+            <Button
+                android:id="@+id/btnMainOption5Add"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnMainAdd" />
+        </TableRow>
+</TableLayout>
